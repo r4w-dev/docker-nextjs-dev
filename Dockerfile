@@ -1,4 +1,4 @@
-FROM node:10.13-alpine
+FROM node:10.14-alpine
 
 RUN addgroup -g 1500 -S www && adduser -S -G www -u 1500 www
 RUN mkdir /app
